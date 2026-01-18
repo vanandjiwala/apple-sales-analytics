@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: source
+    database: apple-data
+    schema: source
+    tables:
+      - name: sales
+      - name: category
+      - name: products
+      - name: stores
+      - name: warranty
