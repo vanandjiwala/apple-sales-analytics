@@ -1,0 +1,6 @@
+apple_retail_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "../data/apple-retail.db"
