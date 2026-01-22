@@ -3,4 +3,4 @@ apple_retail_analytics:
   outputs:
     dev:
       type: duckdb
-      path: "../data/apple-retail.db"
+      path: "md:apple-retail?motherduck_token={{env_var('motherduck_token')}}"

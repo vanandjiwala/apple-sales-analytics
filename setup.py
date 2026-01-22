@@ -1,6 +1,11 @@
 import duckdb
 
+## Local Development
 conn = duckdb.connect('data/apple-retail.db')
+
+## Cloud Development - Uncomment for setting up data in motherduck warehouse
+# conn = duckdb.connect('md:apple-retail')
+
 response = conn.sql("SHOW TABLES")
 
 print("Initial State")
